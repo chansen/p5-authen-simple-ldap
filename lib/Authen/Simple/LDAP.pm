@@ -61,9 +61,9 @@ sub check {
     my ( $self, $username, $password ) = @_;
 
     my $connection = Net::LDAP->new( $self->host,
-        Port    => $self->port,
-        Timeout => $self->timeout,
-        Version => $self->version
+        port    => $self->port,
+        timeout => $self->timeout,
+        version => $self->version
     );
 
     unless ( defined $connection ) {
