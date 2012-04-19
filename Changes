@@ -1,0 +1,8 @@
+Revision history for Perl extension Authen::Simple::LDAP
+
+0.2 2006-01-05 00:00
+    - return dn on successful authentication
+    - log using error level unless invalid credentials
+
+0.1 2006-01-03 00:00
+    - first release
