@@ -175,7 +175,7 @@ L<Net::LDAP>.
 
 =head1 AUTHOR
 
-Christian Hansen C<ch@ngmedia.com>
+Christian Hansen C<chansen@cpan.org>
 
 =head1 COPYRIGHT
 
