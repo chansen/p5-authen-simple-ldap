@@ -8,7 +8,7 @@ use Net::LDAP           qw[];
 use Net::LDAP::Constant qw[LDAP_INVALID_CREDENTIALS];
 use Params::Validate    qw[];
 
-our $VERSION = 0.2;
+our $VERSION = 0.3;
 
 __PACKAGE__->options({
     host => {
