@@ -93,7 +93,10 @@ sub check {
         return 0;
     }
 
-    $filter = sprintf( $self->filter, ($username) x 10 );
+    {
+        no if ($] >= 5.022), 'warnings' => 'redundant';
+        $filter = sprintf( $self->filter, ($username) x 10 );
+    }
     $search = $connection->search(
         base   => $self->basedn,
         scope  => $self->scope,
